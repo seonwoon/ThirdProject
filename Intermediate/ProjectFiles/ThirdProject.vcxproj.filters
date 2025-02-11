@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ThirdProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ThirdProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ThirdProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore.txt" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ThirdProject">
+      <UniqueIdentifier>{C16A190E-990C-3848-9CFA-204DCDEA55A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ThirdProject\ThirdProject.Build.cs">
+      <Filter>Source\ThirdProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ThirdProject\ThirdProject.cpp">
+      <Filter>Source\ThirdProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ThirdProject\ThirdProject.h">
+      <Filter>Source\ThirdProject</Filter>
+    </ClCompile>
+    <Filter Include="Source\ThirdProject\Private">
+      <UniqueIdentifier>{9AAB6D46-8C7F-35B3-B1BA-7303B32DE29D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdProject\Private\MiniGameMode.cpp">
+      <Filter>Source\ThirdProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ThirdProject\Private\MiniPawn.cpp">
+      <Filter>Source\ThirdProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ThirdProject\Private\MiniPlayerController.cpp">
+      <Filter>Source\ThirdProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ThirdProject\Public">
+      <UniqueIdentifier>{4A220953-5761-3C9E-A340-0A04AADCF347}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdProject\Public\MiniGameMode.h">
+      <Filter>Source\ThirdProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ThirdProject\Public\MiniPawn.h">
+      <Filter>Source\ThirdProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ThirdProject\Public\MiniPlayerController.h">
+      <Filter>Source\ThirdProject\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

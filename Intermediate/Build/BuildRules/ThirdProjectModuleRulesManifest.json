@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\ThirdProject_github\\ThirdProject\\Source\\ThirdProject\\ThirdProject.Build.cs",
+		"C:\\ThirdProject_github\\ThirdProject\\Source\\ThirdProject.Target.cs",
+		"C:\\ThirdProject_github\\ThirdProject\\Source\\ThirdProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.3"
+}
